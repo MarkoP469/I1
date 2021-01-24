@@ -1,0 +1,95 @@
+body {
+  font-family: Arial;
+  font-size: 15px;
+  line-height: 1.5em;
+  margin:0;
+  color: #4d4d4d;
+}
+.button {
+	margin-left: 530px;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+i {
+	font-size: 100px;
+}
+#proizvod {
+	display: none;
+}
+.gume {
+	position: relative;
+  border: 1px solid #d9d9d9;
+	box-shadow: 5px 20px 10px 10px #d9d9d9;
+	width: 500px;
+	height: 730px;
+	margin-left: 181px;
+  margin-bottom: 100px;
+}
+.gume:after{
+  background-color: white;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 0px solid #d9d9d9;
+  border-left: 1px solid #d9d9d9;
+  border-right: 0px solid #d9d9d9;
+  left: 83%;
+  margin-top: -655px;
+  margin-left: -25px;
+  content: '';
+  transform: rotate(45deg);
+}
+.gume h3 {
+	margin: 0px 25px;
+    border-bottom: 1px solid #a6a6a6;
+    padding: 20px 0;
+}
+.gume ul li {
+	list-style-type: none;
+	border-bottom: 1px solid #a6a6a6;
+  margin-right: 25px;
+}
+.gume ul li p {
+  color: #a6a6a6;
+}
+.img-guma {
+	float: left;
+	width: 20%;
+}
+.img-guma img {
+	width: 150%;
+}
+.opis {
+	float: right;
+	width: 60%;
+	margin-left: 50px;
+}
+.button1 {
+  border: none;
+  width: 200px;
+  background-color: white
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 20px 30px;
+  cursor: pointer;
+}
+.button1:hover {
+	border:1px solid aqua;
+}
+.button2 {
+  border: none;
+  width: 200px;
+  background-color: green;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
